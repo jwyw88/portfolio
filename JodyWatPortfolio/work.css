@@ -1,0 +1,32 @@
+#carouselInner {
+border: 1px solid #87CEEA; 
+/*set up carousel CSS here*/
+width: 37.5em;
+height: 24em;
+overflow: hidden; //will display in full screen
+		        
+}
+
+#carouselUL {
+position: relative;/*positioned to allow for movement*/
+list-style-type: none;/*removes the bullet items*/
+padding-bottom: 0.625em; 
+/*setup the UL CSS here*/
+left: 0em; /*space left in left side of carousel*/
+width: 112em;
+		
+}
+
+#carouselOuter{margin-left: 11em;}
+
+#carouselUL li{
+float: left; /* important for inline positioning of the list items */
+margin: -0.95em 0em 10em 0em;/*adds some head room and space between pictures*/
+text-align: center; /*centers the image in the list item */   
+/*set your list CSS here*/
+width: 37.5em;
+height: 24em;
+		
+}
+
+

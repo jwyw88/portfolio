@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+<meta charset="UTF-8" /> 
+
+   <title>Jody Wat's Personal Portfolio</title>
+   <link href="webpage.css" rel="stylesheet" type="text/css" />
+   <link href="blog.css" rel="stylesheet" type="text/css" />
+   
+</head>
+
+<body>
+
+	<div id="webpage">
+
+	<header>
+		
+		<h1>My Blog</h1>
+	</header>
+	
+	<div id="threecolwrap">
+	
+	<div id="twocolwrap">
+	
+	<nav class="menu">
+		 <ul>
+			 <li class="choice1"><a href="index.html">Home</a></li>
+			 <li class="choice2"><a href="blog.html">My Blog</a></li>
+			 <li class="choice3"><a href="work.html">My Work</a></li>
+			 <li class="choice4"><a href="skills.html">My Skills</a></li>
+			 <li class="choice5"><a href="contact.html">My Contact</a></li>
+			 
+		 </ul>
+	</nav>
+	
+	<article>
+	<div id="main">
+		<div class="post">
+			<h2>Let’s learn some basic ideas about the MVC pattern</h2>
+			<p class="date">10 <span>April</span></p>
+			
+			<div class="post-content">
+				
+				<h3>The MVC Pattern</h3>
+					<ul>
+						<li>Model-View-Controller(MVC) has been an important architectural pattern in computer science for many years</li>
+						<li>Separates concerns within application</li>
+						<li>Utilized by dozens of frameworks</li>
+						
+					</ul>
+					<br/>
+					<h3>Models</h3>
+					<ul>
+						<li>A set of classes that describe the data you will be working with</li>
+						
+					</ul>
+					<br/>	
+					<h3>View</h3>
+					<ul>
+						<li>Defines how the application’ UI will be displayed</li>
+						<li>This is a template to dynamically generate HTML</li>
+					</ul>
+					<br/>
+					<h3>Controller</h3>
+					<ul>
+						<li>Sits between Model and View that handles communication from user, application flow and code logic</li>
+						<li>Responds to user input, talks to the Model, and decides which view to render if any</li>
+						<li>Think of this class as where all of your code statements go (business logic)</li>
+					</ul>
+					<br/>	
+
+					<h3>Razor View Engine</h3>
+					<ul>
+						<li>Razor is code syntax used by the view</li>
+						<li>Used for HTML template generation</li>
+						<li>Does not use the heavy XML syntax used by the Web Forms view engine</li>
+						<li>Minimal Keystrokes and requires the use of pure html and JavaScript</li>
+					</ul>
+					<br/>	
+					<h3>Unobtrusive JavaScript</h3>
+					<ul>
+						<li>Place JavaScript code within JavaScript and jQuery libraries of your own design and reduces clutter of JavaScript code with scripts</li>
+							
+					</ul>
+					<br/>
+					<h3>jQuery Validation</h3>
+					<ul>
+						<li>Validation done using jQuery Validation plugin</li>
+						<li>Reduce the writing of validation code</li>
+						<li>Validations are performed using Unobtrusive JavaScript</li>
+						
+					</ul>
+					<br/>
+					<h3>JSON Binding</h3>
+					<ul>
+						<li>Automatically includes JavaScript Object Notation(JSON) binding support enabling action methods to accept and model-bind data in JSON format</li>
+						<li>Templates and data binding that need to post data back to the server</li>
+						
+						
+					</ul>
+					<br/>
+					<h3>Dependency Resolution</h3>
+					<ul>
+						<li>Simplifies the use of dependency injection in your applications</li>
+						<li>Easier to decouple application components, making them more configurable and easier to test</li>
+	
+					</ul>
+					<br/>
+					<h3>Display Modes</h3>
+					<ul>
+						<li>Real-time selection of display modes based on hardware device used</li>
+						<li>Index.cshtml – renders for desktop screens</li>
+						<li>Index.Mobile.cshtml – renders for mobile device screens</li>
+						
+					</ul>
+					<br/>
+					<h3>Bundling & Minification</h3>
+					<ul>
+						<li>Reduces requests to your sites by combining several individual script references into a single request</li>
+						<li>Minifies the requests through a number of techniques, such as shortening variable names and removing white spaces and comments</li>
+						
+					</ul>
+					<br/>
+				<!--<p>For more details, please refer to:<p>
+				<span><a href=“http://www.w3schools.com/html/html5_canvas.asp” target="_blank>W3C</a></span>
+				<br/><br/>
+			<h3>Browser Support</h3>
+				<p>Internet Explorer 9+, Firefox, Opera, Chrome, and Safari </p>
+				<br/>
+			<h3>Canvas Coordinates</h3>
+				<ul>
+					<li>Two-dimensional grid</li>
+					<li>Starts at upper left</li>
+					<li>Move right -> increase X value</li>
+					<li>Move left -> increase Y value</li>
+				</ul>
+				<br/>
+				<div id="blog_pic1"><img src="image/coordinate.jpg" alt="coordinate" width="200" height="200"/></div>
+				<br/>
+			<h3>Canvas markup</h3>
+			<P>A Canvas element has no content and no border of its own.</P>
+			<br/>
+			<h3>Canvas element</h3>
+			<p> &#60;canvas&#62; width=" " height=" "&#62; &#60;/canvas&#62; </p>
+			<br/>
+				<ul>
+					<li>Always specify width and height of drawing area</li>
+					<li>Include ID attribute for JavaScript</li>
+					<li>Include fallback content for non-supportive browsers</li>
+					
+				</ul>
+				<br/>
+				<div id="blog_pic2"><img src="image/canvas.jpg" alt="canvas" width="500" height="200"/></div>
+				<br/>
+				<h3>JavaScript</h3>
+					<ul>
+						<li>Used to display drawn objects/text</li>
+						<li>Find the Canvas element through:</li>
+					
+					</ul>
+				<br/>
+				<p>&#60;script&#62;<br/>
+				Var getCanvas = document.getElementById(“myCanvas”); <span id="comment1">-> Finds the Canvas element with id=”myCanvas”</span><br/>
+				Var ctx = getCanvas.getContext(“2d”);<span id="comment2"> -> getContext() method renders context and its drawing functions</span><br/>
+				&#60;/script&#62;</p>
+				<br/>
+				<h3>Drawing Rectangles</h3>
+					<ul>
+						<li>fillstyle()-  CSS color, a pattern, or a gradient. The default is solid black</li>
+						<li>fillRect(x, y, width, height) draws a rectangle filled with the current fill style.</li>
+						<li>strokeStyle like fillStyle — it can be a CSS color, a pattern, or a gradient.</li>
+						<li>strokeRect(x, y, width, height) draws a rectangle with the current stroke style. ->it doesn’t fill in the middle; it just draws the edges.</li>
+						<li>clearRect(x, y, width, height) clears the pixels in the specified rectangle.</li>
+					</ul>
+					<br/>
+				<div id="blog_pic2"><img src="image/example.jpg" alt="canvas" width="800" height="500"/></div><br/>
+				<p>If you want to learn more about HTML5-Canvas, please come back to check for my update.</p>-->
+			</div>	
+		</div>
+		
+		
+		
+		<div class="pagination">
+			<p class="prev"><a href="blog3.html">Older posts</a></p>
+			<p class="next"><a href="blog5.html">Newer posts</a></p>
+		</div>
+		
+	</div>	
+	</article>
+	
+	</div>
+	
+	<aside>
+		<div id="photo"><img src="image/digital.jpg" alt="design" width="170" height="150"/></div>
+    </aside> 
+	
+	</div>
+	
+	<footer>
+		
+	</footer>
+	      
+</div>
+
+</body>
+
+</html>

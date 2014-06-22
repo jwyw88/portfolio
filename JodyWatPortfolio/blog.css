@@ -1,0 +1,95 @@
+body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldset, blockquote {
+margin: 0; padding: 0; border: 0;
+
+}
+		
+#main .post {
+position: relative; 
+margin: 0 0 60px 0; 
+padding: 0 0 66px 0; 
+overflow: hidden;
+			
+}
+
+#main .post h2 {
+float: left; 
+margin: 0 0 10px 75px;
+				
+}
+
+#main .post p.date {
+position: absolute; 
+left: 0; top: 0; 
+padding: 4px 7px 4px 7px; 
+font: bold 40px Helvetica, Sans-Serif; 
+color: #b6b6b1; 
+text-align: center;
+
+} 
+
+#main .post p.date span {
+font: normal 20px Helvetica, Sans-Serif;
+display: block; 
+margin: -5px 0 0 0;
+ 
+}
+
+
+#main .post .post-content {
+position: relative;
+float: left;
+margin-top: 10px;
+margin-left: 70px;
+
+}	
+	
+		
+#main .pagination {
+margin: 0 0 60px 0; 
+overflow: hidden;
+
+} 
+
+#main .pagination p {
+margin: 0;
+
+}
+	
+#main .pagination p a {
+display: block; 
+width: 102px; 
+height: 33px; 
+overflow: hidden;
+font-size: 16px;
+
+}
+
+#main .pagination p.prev a {
+float: left; 
+padding: 14px 0 0 46px;
+
+}
+
+#main .pagination p.next a {
+float: right; 
+text-align: right; 
+padding: 14px 46px 0 0;
+					
+}
+
+a:link {text-decoration: none;}    /* unvisited link */
+a:visited {text-decoration: none;} /* visited link */
+a:hover {text-decoration: underline; color: orange}   /* mouse over link */
+a:active {text-decoration: underline;}  /* selected link */
+				
+#comment1, #comment2 {
+color: #9932CC;
+
+}
+
+ul li {margin-left: 20px;}
+
+.list {margin-left: 40px;}
+
+ol li {margin-left: 20px;}
+

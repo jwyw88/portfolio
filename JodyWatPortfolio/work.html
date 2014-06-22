@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+<meta charset="UTF-8" /> 
+
+   <title>Jody Wat's Personal Portfolio</title>
+   <link href="webpage.css" rel="stylesheet" type="text/css" />
+   <link href="work.css" rel="stylesheet" type="text/css" />
+   <script src="jquery-1.10.2.js"></script>
+
+	<script type="text/javascript">
+		
+			function autoCarousel(){
+				//get the width of the image
+				var itemWidth = $('#carouselUL li').outerWidth() + 10;
+				
+				//determine the movement
+				var moveFactor = parseInt($('#carouselUL').css('left')) - itemWidth;
+				
+				$('#carouselUL').animate(
+					{'left' : moveFactor}, 'slow', 'linear', function(){ //move the specified <ul> to the left and set the interval
+						$("#carouselUL li:last").after($("#carouselUL li:first")); //order of images
+						$('#carouselUL').css({'left' : '0em'}); //move the list within the carousel 620px to the left
+						
+					
+					});
+					
+			}
+			
+			
+			
+			//call the function
+			$('document').ready(function(){
+			var timer = setInterval(autoCarousel, 3000); //set timer to loop
+				
+			});
+			
+	</script>
+   
+</head>
+
+<body>
+
+	<div id="webpage">
+
+	<header>
+		
+		<h1>My Work</h1>
+	</header>
+	
+	<div id="threecolwrap">
+	
+	<div id="twocolwrap">
+	
+	<nav class="menu">
+		 <ul>
+			 <li class="choice1"><a href="index.html">Home</a></li>
+			 <li class="choice2"><a href="blog.html">My Blog</a></li>
+			 <li class="choice3"><a href="work.html">My Work</a></li>
+			 <li class="choice4"><a href="skills.html">My Skills</a></li>
+			 <li class="choice5"><a href="contact.html">My Contact</a></li>
+			 
+		 </ul>
+	</nav>
+	
+	<article>
+		
+        <h3>Work Portfolio</h3>
+		<br/>
+		<section id="carouselContainer">
+		<section id="carouselOuter">
+			<section id="carouselInner">
+				<ul id="carouselUL">
+					<li><img src="image/work1.jpg" alt="" width="600" height="400"/></li>
+					<li><img src="image/work2.jpg" alt="" width="600" height="400"/></li>
+					<li><img src="image/work3.jpg" alt="" width="600" height="400"/></li>
+					<li><img src="image/work4.jpg" alt="" width="600" height="400"/></li>
+					
+				</ul>
+			</section>
+		</section>
+	</section>
+		
+
+		
+	</article>
+	
+	</div>
+	
+	<aside>
+		<div id="photo"><img src="image/digital_2.jpg" alt="design" width="170" height="150"/></div>
+    </aside> 
+	
+	
+	</div>
+	
+	<footer>
+		
+	</footer>
+	      
+</div>
+
+</body>
+
+</html>

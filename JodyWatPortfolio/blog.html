@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+<meta charset="UTF-8" /> 
+
+   <title>Jody Wat's Personal Portfolio</title>
+   <link href="webpage.css" rel="stylesheet" type="text/css" />
+   <link href="blog.css" rel="stylesheet" type="text/css" />
+   
+</head>
+
+<body>
+
+	<div id="webpage">
+
+	<header>
+		
+		<h1>My Blog</h1>
+	</header>
+	
+	<div id="threecolwrap">
+	
+	<div id="twocolwrap">
+	
+	<nav class="menu">
+		 <ul>
+			 <li class="choice1"><a href="index.html">Home</a></li>
+			 <li class="choice2"><a href="blog.html">My Blog</a></li>
+			 <li class="choice3"><a href="work.html">My Work</a></li>
+			 <li class="choice4"><a href="skills.html">My Skills</a></li>
+			 <li class="choice5"><a href="contact.html">My Contact</a></li>
+			 
+		 </ul>
+	</nav>
+	
+	<article>
+	<div id="main">
+		<div class="post">
+			<h2>HTML5 – Canvas</h2>
+			<p class="date">07 <span>April</span></p>
+			
+			<div class="post-content">
+				
+				<p>According to W3C, the Canvas is:</p>
+					<ul>
+						<li>The HTML5 Canvas element is used to draw graphics, on the fly, via scripting (usually JavaScript).</li>
+						<li>The Canvas element is only a container for graphics. You must use a script to actually draw the graphics.</li>
+						<li>Canvas has several methods for drawing paths, boxes, circles, text, and adding images.</li>
+					</ul>
+					<br/>
+				<p>For more information, please refer to:<p>
+				<span><a href="http://www.w3schools.com/html/html5_canvas.asp" target="_blank">W3C</a></span>
+				<br/><br/>
+			<h3>Browser Support</h3>
+				<p>Internet Explorer 9+, Firefox, Opera, Chrome, and Safari </p>
+				<br/>
+			<h3>Canvas Coordinates</h3>
+				<ul>
+					<li>Two-dimensional grid</li>
+					<li>Starts at upper left</li>
+					<li>Move right -> increase X value</li>
+					<li>Move left -> increase Y value</li>
+				</ul>
+				<br/>
+				<div id="blog_pic1"><img src="image/coordinate.jpg" alt="coordinate" width="200" height="200"/></div>
+				<br/>
+			<h3>Canvas markup</h3>
+			<P>A Canvas element has no content and no border of its own.</P>
+			<br/>
+			<h3>Canvas element</h3>
+			<p> &#60;canvas&#62; width=" " height=" "&#62; &#60;/canvas&#62; </p>
+			<br/>
+				<ul>
+					<li>Always specify width and height of drawing area</li>
+					<li>Include ID attribute for JavaScript</li>
+					<li>Include fallback content for non-supportive browsers</li>
+					
+				</ul>
+				<br/>
+				<div id="blog_pic2"><img src="image/canvas.jpg" alt="canvas" width="500" height="200"/></div>
+				<br/>
+				<h3>JavaScript</h3>
+					<ul>
+						<li>Used to display drawn objects/text</li>
+						<li>Find the Canvas element through:</li>
+					
+					</ul>
+				<br/>
+				<p>&#60;script&#62;<br/>
+				Var getCanvas = document.getElementById(“myCanvas”); <span id="comment1">-> Finds the Canvas element with id=”myCanvas”</span><br/>
+				Var ctx = getCanvas.getContext(“2d”);<span id="comment2"> -> getContext() method renders context and its drawing functions</span><br/>
+				&#60;/script&#62;</p>
+				<br/>
+				<h3>Drawing Rectangles</h3>
+					<ul>
+						<li>fillstyle()-  CSS color, a pattern, or a gradient. The default is solid black</li>
+						<li>fillRect(x, y, width, height) draws a rectangle filled with the current fill style.</li>
+						<li>strokeStyle like fillStyle — it can be a CSS color, a pattern, or a gradient.</li>
+						<li>strokeRect(x, y, width, height) draws a rectangle with the current stroke style. ->it doesn’t fill in the middle; it just draws the edges.</li>
+						<li>clearRect(x, y, width, height) clears the pixels in the specified rectangle.</li>
+					</ul>
+					<br/>
+				<div id="blog_pic2"><img src="image/example1.png" alt="canvas example" width="800" height="500"/></div><br/>
+				<p>If you want to learn more about HTML5-Canvas, please come back to check for my update.</p>
+			</div>	
+		</div>
+		
+		
+		
+		<div class="pagination">
+			<p class="prev"><a href="blog.html">Older posts</a></p>
+			<p class="next"><a href="blog2.html">Newer posts</a></p>
+		</div>
+		
+	</div>	
+	</article>
+	
+	</div>
+	
+	<aside>
+		<div id="photo"><img src="image/digital.jpg" alt="design" width="170" height="150"/></div>
+    </aside> 
+	
+	</div>
+	
+	<footer>
+		
+	</footer>
+	      
+</div>
+
+</body>
+
+</html>

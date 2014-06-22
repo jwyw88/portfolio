@@ -1,0 +1,146 @@
+body {
+font-family: helvetica, arial, sans-serif; 
+background: #efefef; 
+margin: 0;
+}
+
+#portfolio {
+width: 980px; 
+margin: 0 auto 20px;
+}
+
+header {
+position: relative; 
+width: 100%; 
+height: 70px; 
+margin: 10px 0; 
+background: #87CEEA; 
+border-radius: 20px 0 20px 0; 
+box-shadow: 0 12px 8px -9px #555; 
+padding: 1px;
+}
+
+header section#title {
+position: relative; 
+float: left; 
+width: 300px; 
+height: 65px; 
+top: -14px; 
+left: 0;
+}
+
+header h1 {
+padding: 0 50px; 
+font-family: 'Lato', helvetica, sans-serif; 
+font-weight: 900; 
+font-size: 1.4em; 
+line-height: 1; 
+letter-spacing: -.025em; 
+color: #FFF;
+}
+
+nav.menu {
+margin: 19px auto; 
+padding: 0; 
+font-size: .8em;
+}
+
+nav.menu > ul {display: inline-block;}
+
+nav.menu li {
+float: left; 
+list-style-type: none; 
+position: relative;
+}
+
+nav.menu li a {
+display: block; 
+padding: .50em .8em; 
+font-family: "Source Sans Pro", helvetica, sans-serif; 
+font-weight: 600; 
+font-size: 1.2em; 
+text-align: left; 
+color: #fff; 
+text-decoration: none; 
+-webkit-font-smoothing: antialiased;
+}
+
+nav.menu li.choice1 a {background: #f58c21;}
+
+nav.menu li.choice2 a {background: #4eb8ea;}
+
+nav.menu li.choice3 a {background: #d6e636;}
+
+nav.menu li.choice4 a {background: #ee4c98;}
+
+nav.menu li.choice5 a {background: #f58c21;}
+
+nav.menu li:hover > a {
+color: #555; 
+border-color: #fff; 
+border:0;
+}
+
+nav.menu li:last-child a {border-bottom-right-radius: 10px;}
+
+nav.menu li:first-child a {border-top-left-radius: 10px;}
+
+#article_area {margin: 0; padding-bottom: 10px;}
+
+#slide {
+position: relative; 
+float: right; 
+width: 34%; 
+top: -390px;
+}
+
+#intro p {
+padding: 0 320px 0 0; 
+float: left; 
+width: 66%; 
+font-family: 'Lato', helvetica, sans-serif; 
+font-weight: 900; 
+font-size: 4.3em; 
+line-height: 1.5; 
+letter-spacing: .025em; 
+color: #4eb8ea; 
+text-shadow: 4px 4px 5px #aaa;
+}
+
+
+#image_2 {
+float: left; 
+margin: -254px 320px;
+}	
+
+#image_3 {
+float: right; 
+margin: -254px 20px 0 0;
+}
+
+footer{
+padding: .5em 0 .35em 0; 
+text-align: center; 
+border-radius: 10px 0 10px 0; 
+background: #87CEEA; 
+box-shadow: 0 12px 8px -9px #555; 
+width: 100%;
+}
+	
+/*footer p {
+font-family: "Source Sans Pro", helvetica, sans-serif; 
+font-weight: 400; 
+font-size: .85em; 
+letter-spacing: .2em;
+color: #555;
+}
+
+footer p {
+font-style: italic; 
+font-weight: 700; 
+font-size: 1em; 
+color: #4eb8ea; 
+border-left : 1px solid #ccc;
+}*/
+
+

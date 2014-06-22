@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+<meta charset="UTF-8" /> 
+<title>Jody Wat's Personal Portfolio</title>
+<link rel="stylesheet" type="text/css" href="index.css"/>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("#intro").fadeToggle("slow", "linear");
+	$("#img").fadeToggle("5000", "linear");
+  });
+});
+</script>
+
+</head>
+<body>
+
+	<div id="portfolio">
+	
+		<header>
+		
+			<section id="title">
+			<h1>Jody Wat's<br/>Personal Portfolio</h1>
+			
+			</section>
+			
+			<nav class="menu">
+			<ul>
+			<li class="choice1"><a href="index.html">Home</a></li>
+			<li class="choice2"><a href="blog.html">My Blog</a></li>
+			<li class="choice3"><a href="work.html">My Work</a></li>
+			<li class="choice4"><a href="skills.html">My Skills</a></li>
+			<li class="choice5"><a href="contact.html">My Contact</a></li>
+			</ul>
+			</nav>
+			
+		</header>
+			
+			<section id="feature_area">
+			
+			<article id="intro">
+			
+			<p>I Am A Web Designer Who Thinks Differently</p>
+			
+			</article>
+		
+			<aside id="slide">
+			<div id="img"><img src="image/digital_6.jpg" alt="portfolio" width="320" height="300"/></div>
+			</aside>
+			
+			</section>
+			
+			<div id="button"><button style="width:200px; height:35px; margin-top:-20px; margin-bottom:-20px;">Click to fade toggle here!</button></div>
+			<br/><br/>
+			
+			
+			<section id="article_area">
+			
+			<article id="image_1">
+			
+			<div><a href="blog.html"><img src="image/circle_4.jpg" alt="My Blog" width="320" height="250"/></a></div>
+			
+			</article>
+			
+			<article id="image_2">
+			
+			<div><a href="work.html"><img src="image/circle_5.jpg" alt="My Work" width="320" height="250"/></a></div>
+			
+			</article>
+			
+			<article id="image_3">
+			
+			<div><a href="skills.html"><img src="image/circle_6.jpg" alt="My Skills" width="320" height="250"/></a></div>
+			
+			</article>
+			
+			</section>
+			
+		<footer>
+		<p></p>
+		</footer>
+		
+	</div>
+			
+</body>
+</html>
