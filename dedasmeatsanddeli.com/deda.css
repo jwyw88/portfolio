@@ -1,0 +1,233 @@
+@charset "utf-8";
+
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+body{
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #000;
+	color: #fff;
+
+}
+
+/* Simple fluid media
+   Note: Fluid media requires that you remove the media's height and width attributes from the HTML
+   http://www.alistapart.com/articles/fluid-images/ 
+*/
+img, object, embed, video {
+	max-width: 100%;
+}
+
+/* IE 6 does not support max-width so default to width 100% */
+.ie6 img {
+	width:100%;
+}
+
+/*
+	Dreamweaver Fluid Grid Properties
+	----------------------------------
+	dw-num-cols-mobile:		4;
+	dw-num-cols-tablet:		8;
+	dw-num-cols-desktop:	12;
+	dw-gutter-percentage:	15;
+	
+	Inspiration from "Responsive Web Design" by Ethan Marcotte 
+	http://www.alistapart.com/articles/responsive-web-design
+	
+	and Golden Grid System by Joni Korpi
+	http://goldengridsystem.com/
+*/
+
+.fluid {
+	clear: both;
+	margin-left: 0;
+	width: 100%;
+	float: left;
+	display: block;
+}
+
+.fluidList {
+    list-style:none;
+    list-style-image:none;
+    margin:0;
+    padding:0;        
+}
+
+/* Mobile Layout: 480px and below. */
+  
+.gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 87.0652%;
+	padding-left: 1.4673%;
+	padding-right: 1.4673%;
+	clear: none;
+	float: none;
+}
+
+.zeroMargin_mobile {
+margin-left: 0;
+}
+.hide_mobile {
+display: none;
+}
+
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+
+@media only screen and (min-width: 481px) {
+
+.gridContainer {
+	width: 88.5326%;
+	padding-left: 0.7336%;
+	padding-right: 0.7336%;
+	clear: none;
+	float: none;
+	margin-left: auto;
+}
+
+.zeroMargin_tablet {
+margin-left: 0;
+}
+.hide_tablet {
+display: none;
+}
+}
+
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
+@media only screen and (min-width: 769px) {
+
+.gridContainer {
+	width: 89.0217%;
+	max-width: 1232px;
+	padding-left: 0.4891%;
+	padding-right: 0.4891%;
+	margin: auto;
+	clear: none;
+	float: none;
+	margin-left: auto;
+}
+
+.zeroMargin_desktop {margin-left: 0;}
+
+.hide_desktop {display: none;}
+
+
+/*carousel-home*/
+#carouselInner { 
+/*set up carousel CSS here*/
+width: 53.5em;
+height: 37.5em;
+overflow: hidden; /*will display in full screen*/
+}
+
+#carouselUL {
+position: relative;/*positioned to allow for movement*/
+list-style-type: none;/*removes the bullet items*/
+padding-bottom: 0.625em; 
+/*setup the UL CSS here*/
+left: -3em; /*space left in left side of carousel*/
+width: 425em;				
+}
+
+#carouselOuter{margin-left: 0.1em;}
+
+#carouselUL li{
+float: left; /* important for inline positioning of the list items */
+margin: -0.95em 0.625em 0.94em 0.625em;/*adds some head room and space between pictures*/
+text-align: center; /*centers the image in the list item */   
+/*set your list CSS here*/
+width: 53.5em;
+height: 37.5em;		
+}
+
+#carouselContainer {
+position: relative;
+float: right;	
+}
+
+/*footer*/
+#dedaFooter {
+	clear: both;
+	display: block;
+	background-color: #eb4330;
+	color: white;
+	line-height: 1.5;		
+}
+
+#trademark1 {margin-left: 2em;}
+
+#trademark1 {margin-right: 15em;}
+
+/*carousel-catering*/
+#carouselInner_2 {
+border: 2px solid #eb4330;
+/*set up carousel CSS here*/
+width: 53.3em;
+height: 18.75em;
+overflow: hidden; /*will display in full screen*/	        
+}
+
+#carouselUL_2 {
+position: relative;/*positioned to allow for movement*/
+list-style-type: none;/*removes the bullet items*/
+padding-bottom: 10px; 
+/*setup the UL CSS here*/
+left: -3em; /*space left in left side of carousel*/
+width: 169em;		
+}
+
+#carouselOuter_2{margin-left: 0em;}
+
+#carouselUL_2 li{
+float: left; /* important for inline positioning of the list items */
+margin: -0.95em 0em 0.94em 0em;/*adds some head room and space between pictures*/
+text-align: center; /*centers the image in the list item */   
+/*set your list CSS here*/
+width: 18.75em;
+height: 18.75em;		
+}
+
+/*catering*/
+h2, h3 {font-family: Georgia, Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serifariel, serif;}
+
+#catMenu {
+position: relative;
+float: right;
+margin-right: 9.375em;
+
+}
+
+/*meat*/
+#deda {font-weight: bold; color: #eb4330;}
+#meat {font-weight: bold; color: #D2691E;}
+
+/*contact*/
+#contact {color: #eb4330;}
+.hour {color: #D2691E;}
+
+a:hover {color:#eb4330;}
+
+#menu2 a {
+position: relative;
+float: right;
+margin-right: 20em;
+margin-top: -2em;
+
+}
+
+#map, #mapLink {
+position: relative;
+float: right;
+margin-top: -14em;
+
+}

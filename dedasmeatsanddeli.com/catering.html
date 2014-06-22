@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Deda's Meats & Deli">
+<meta name="keywords" content="meats, deli, meats & deli, delicatessan, delicatessan Windsor, meat processor, homemade meals">
+<title>Deda's Meats &amp; Deli - Catering</title>
+
+<link href="boilerplate.css" rel="stylesheet" type="text/css">
+<link href="deda.css" rel="stylesheet" type="text/css">
+<link href="SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css">
+
+<script src="respond.min.js"></script>
+<script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+<!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements & feature detects -->   
+<script src="/w11_eportfolio/your_name/js/modernizr-2.7.1.min.js"></script> 
+<script src="jquery-1.10.2.js"></script>
+
+	<script type="text/javascript">
+		
+			function autoCarousel(){
+				//get the width of the image
+				var itemWidth = $('#carouselUL_2 li').outerWidth() + 10;
+				
+				//determine the movement
+				var moveFactor = parseInt($('#carouselUL_2').css('left')) - itemWidth;
+				
+				$('#carouselUL_2').animate(
+					{'left' : moveFactor}, 'slow', 'linear', function(){ //move the specified <ul> to the left and set the interval
+						$("#carouselUL_2 li:last").after($("#carouselUL_2 li:first")); //order of images
+						$('#carouselUL_2').css({'left' : '-3.2em'}); //move the list within the carousel 620px to the left
+						
+					
+					});
+					
+			}
+			
+			
+			
+			//call the function
+			$('document').ready(function(){
+			var timer = setInterval(autoCarousel, 3000); //set timer to loop
+				
+			});
+			
+	</script>
+
+</head>    	
+<body>
+<div class="gridContainer clearfix">
+  <div id="div1" class="fluid">
+  <header id="fluid dedaHeader">
+    <img src="Assets/deda banner_modified.jpg" alt="banner" /> 
+  </div>
+  <ul id="MenuBar1" class="MenuBarHorizontal">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="menu.html">Take Out Menu</a></li>
+    <li><a href="catering.html">Catering</a></li>
+    <li><a href="meat.html">Meat Processing</a></li>
+    <li><a href="deli.html">Deda's Gallery</a></li>
+    <li><a href="contact.html">Contact Us</a></li>
+  </ul>
+
+<script type="text/javascript">
+var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"SpryAssets/SpryMenuBarDownHover.gif", imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
+</script>
+</header>
+
+<h2>Catering</h2>
+<p>Welcome to dedas meats and delis catering page. We offer catering for all occassions. When you are planning your next party or function, think of dedas meats and deli. Check out our full catering menu. Special meat platters available. $100 minimum order for delivery. Our delivery area includes East Windsor and Tecumseh Town, from Central to Manning Road. We can extend our delivery area, call for special pricing. 
+</p>
+
+<section id="carouselContainer_2">
+		<section id="carouselOuter_2">
+			<section id="carouselInner_2">
+				<ul id="carouselUL_2">
+					<li><img src="Assets/catering1.jpg" alt="food platters" width="300" height="300"/></li>
+					<li><img src="Assets/catering2.jpg" alt="food platters" width="300" height="300"/></li>
+					<li><img src="Assets/catering3.jpg" alt="food platters" width="300" height="300"/></li>
+					<li><img src="Assets/catering4.jpg" alt="food platters" width="300" height="300"/></li>
+					<li><img src="Assets/catering5.jpg" alt="food platters" width="300" height="300"/></li>
+					<li><img src="Assets/catering6.jpg" alt="food platters" width="300" height="300"/></li>
+					<li><img src="Assets/catering7.jpg" alt="food platters" width="300" height="300"/></li>
+                    <li><img src="Assets/catering9.jpg" alt="food platters" width="300" height="300"/></li>
+                    <li><img src="Assets/catering10.jpg" alt="food platters" width="300" height="300"/></li>
+				</ul>
+			</section>
+		</section>
+	</section>
+    <br/><hr/>
+    <h2>Catering Menu</h2>
+    <span id="catMenu"><img src="Assets/cateringMenu.jpg" alt="menu" /></span>
+<div>
+<footer id="dedaFooter">
+<span id="trademark1">&copy; Deda's Meats & Deli 2014</span><span id="trademark2"> Designed and hosted by Windsorswebsites.com</span>
+</footer>
+</div>
+</div>
+</body>
+</html>
