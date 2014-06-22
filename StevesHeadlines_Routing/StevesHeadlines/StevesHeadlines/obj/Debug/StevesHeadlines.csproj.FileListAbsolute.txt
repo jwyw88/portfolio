@@ -1,0 +1,98 @@
+F:\WEB552 - ASP.NET III - 2014\Content\3x02 Routing\Assignment\StevesHeadlines\StevesHeadlines\bin\StevesHeadlines.dll.config
+F:\WEB552 - ASP.NET III - 2014\Content\3x02 Routing\Assignment\StevesHeadlines\StevesHeadlines\bin\StevesHeadlines.dll
+F:\WEB552 - ASP.NET III - 2014\Content\3x02 Routing\Assignment\StevesHeadlines\StevesHeadlines\bin\StevesHeadlines.pdb
+F:\WEB552 - ASP.NET III - 2014\Content\3x02 Routing\Assignment\StevesHeadlines\StevesHeadlines\bin\Antlr3.Runtime.dll
+F:\WEB552 - ASP.NET III - 2014\Content\3x02 Routing\Assignment\StevesHeadlines\StevesHeadlines\bin\EntityFramework.dll
+F:\WEB552 - ASP.NET III - 2014\Content\3x02 Routing\Assignment\StevesHeadlines\StevesHeadlines\bin\Microsoft.Web.Infrastructure.dll
+F:\WEB552 - ASP.NET III - 2014\Content\3x02 Routing\Assignment\StevesHeadlines\StevesHeadlines\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+F:\WEB552 - ASP.NET III - 2014\Content\3x02 Routing\Assignment\StevesHeadlines\StevesHeadlines\bin\Newtonsoft.Json.dll
+F:\WEB552 - ASP.NET III - 2014\Content\3x02 Routing\Assignment\StevesHeadlines\StevesHeadlines\bin\System.Net.Http.Formatting.dll
+F:\WEB552 - ASP.NET III - 2014\Content\3x02 Routing\Assignment\StevesHeadlines\StevesHeadlines\bin\System.Web.Http.dll
+F:\WEB552 - ASP.NET III - 2014\Content\3x02 Routing\Assignment\StevesHeadlines\StevesHeadlines\bin\System.Web.Http.WebHost.dll
+F:\WEB552 - ASP.NET III - 2014\Content\3x02 Routing\Assignment\StevesHeadlines\StevesHeadlines\bin\System.Web.Mvc.dll
+F:\WEB552 - ASP.NET III - 2014\Content\3x02 Routing\Assignment\StevesHeadlines\StevesHeadlines\bin\System.Web.Optimization.dll
+F:\WEB552 - ASP.NET III - 2014\Content\3x02 Routing\Assignment\StevesHeadlines\StevesHeadlines\bin\System.Web.Providers.dll
+F:\WEB552 - ASP.NET III - 2014\Content\3x02 Routing\Assignment\StevesHeadlines\StevesHeadlines\bin\System.Web.Razor.dll
+F:\WEB552 - ASP.NET III - 2014\Content\3x02 Routing\Assignment\StevesHeadlines\StevesHeadlines\bin\System.Web.WebPages.Deployment.dll
+F:\WEB552 - ASP.NET III - 2014\Content\3x02 Routing\Assignment\StevesHeadlines\StevesHeadlines\bin\System.Web.WebPages.dll
+F:\WEB552 - ASP.NET III - 2014\Content\3x02 Routing\Assignment\StevesHeadlines\StevesHeadlines\bin\System.Web.WebPages.Razor.dll
+F:\WEB552 - ASP.NET III - 2014\Content\3x02 Routing\Assignment\StevesHeadlines\StevesHeadlines\bin\WebGrease.dll
+F:\WEB552 - ASP.NET III - 2014\Content\3x02 Routing\Assignment\StevesHeadlines\StevesHeadlines\bin\EntityFramework.xml
+F:\WEB552 - ASP.NET III - 2014\Content\3x02 Routing\Assignment\StevesHeadlines\StevesHeadlines\bin\Newtonsoft.Json.xml
+F:\WEB552 - ASP.NET III - 2014\Content\3x02 Routing\Assignment\StevesHeadlines\StevesHeadlines\bin\System.Net.Http.Formatting.xml
+F:\WEB552 - ASP.NET III - 2014\Content\3x02 Routing\Assignment\StevesHeadlines\StevesHeadlines\bin\System.Web.Http.xml
+F:\WEB552 - ASP.NET III - 2014\Content\3x02 Routing\Assignment\StevesHeadlines\StevesHeadlines\bin\System.Web.Http.WebHost.xml
+F:\WEB552 - ASP.NET III - 2014\Content\3x02 Routing\Assignment\StevesHeadlines\StevesHeadlines\bin\System.Web.Mvc.xml
+F:\WEB552 - ASP.NET III - 2014\Content\3x02 Routing\Assignment\StevesHeadlines\StevesHeadlines\bin\System.Web.Razor.xml
+F:\WEB552 - ASP.NET III - 2014\Content\3x02 Routing\Assignment\StevesHeadlines\StevesHeadlines\bin\System.Web.WebPages.xml
+F:\WEB552 - ASP.NET III - 2014\Content\3x02 Routing\Assignment\StevesHeadlines\StevesHeadlines\bin\System.Web.WebPages.Deployment.xml
+F:\WEB552 - ASP.NET III - 2014\Content\3x02 Routing\Assignment\StevesHeadlines\StevesHeadlines\bin\System.Web.WebPages.Razor.xml
+F:\WEB552 - ASP.NET III - 2014\Content\3x02 Routing\Assignment\StevesHeadlines\StevesHeadlines\obj\Debug\StevesHeadlines.csprojResolveAssemblyReference.cache
+F:\WEB552 - ASP.NET III - 2014\Content\3x02 Routing\Assignment\StevesHeadlines\StevesHeadlines\obj\Debug\StevesHeadlines.dll
+F:\WEB552 - ASP.NET III - 2014\Content\3x02 Routing\Assignment\StevesHeadlines\StevesHeadlines\obj\Debug\StevesHeadlines.pdb
+E:\web 552\StevesHeadlines\StevesHeadlines\StevesHeadlines\bin\StevesHeadlines.dll.config
+E:\web 552\StevesHeadlines\StevesHeadlines\StevesHeadlines\bin\StevesHeadlines.dll
+E:\web 552\StevesHeadlines\StevesHeadlines\StevesHeadlines\bin\StevesHeadlines.pdb
+E:\web 552\StevesHeadlines\StevesHeadlines\StevesHeadlines\bin\Antlr3.Runtime.dll
+E:\web 552\StevesHeadlines\StevesHeadlines\StevesHeadlines\bin\EntityFramework.dll
+E:\web 552\StevesHeadlines\StevesHeadlines\StevesHeadlines\bin\Microsoft.Web.Infrastructure.dll
+E:\web 552\StevesHeadlines\StevesHeadlines\StevesHeadlines\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+E:\web 552\StevesHeadlines\StevesHeadlines\StevesHeadlines\bin\Newtonsoft.Json.dll
+E:\web 552\StevesHeadlines\StevesHeadlines\StevesHeadlines\bin\System.Net.Http.Formatting.dll
+E:\web 552\StevesHeadlines\StevesHeadlines\StevesHeadlines\bin\System.Web.Http.dll
+E:\web 552\StevesHeadlines\StevesHeadlines\StevesHeadlines\bin\System.Web.Http.WebHost.dll
+E:\web 552\StevesHeadlines\StevesHeadlines\StevesHeadlines\bin\System.Web.Mvc.dll
+E:\web 552\StevesHeadlines\StevesHeadlines\StevesHeadlines\bin\System.Web.Optimization.dll
+E:\web 552\StevesHeadlines\StevesHeadlines\StevesHeadlines\bin\System.Web.Providers.dll
+E:\web 552\StevesHeadlines\StevesHeadlines\StevesHeadlines\bin\System.Web.Razor.dll
+E:\web 552\StevesHeadlines\StevesHeadlines\StevesHeadlines\bin\System.Web.WebPages.Deployment.dll
+E:\web 552\StevesHeadlines\StevesHeadlines\StevesHeadlines\bin\System.Web.WebPages.dll
+E:\web 552\StevesHeadlines\StevesHeadlines\StevesHeadlines\bin\System.Web.WebPages.Razor.dll
+E:\web 552\StevesHeadlines\StevesHeadlines\StevesHeadlines\bin\WebGrease.dll
+E:\web 552\StevesHeadlines\StevesHeadlines\StevesHeadlines\bin\EntityFramework.xml
+E:\web 552\StevesHeadlines\StevesHeadlines\StevesHeadlines\bin\Newtonsoft.Json.xml
+E:\web 552\StevesHeadlines\StevesHeadlines\StevesHeadlines\bin\System.Net.Http.Formatting.xml
+E:\web 552\StevesHeadlines\StevesHeadlines\StevesHeadlines\bin\System.Web.Http.xml
+E:\web 552\StevesHeadlines\StevesHeadlines\StevesHeadlines\bin\System.Web.Http.WebHost.xml
+E:\web 552\StevesHeadlines\StevesHeadlines\StevesHeadlines\bin\System.Web.Mvc.xml
+E:\web 552\StevesHeadlines\StevesHeadlines\StevesHeadlines\bin\System.Web.Razor.xml
+E:\web 552\StevesHeadlines\StevesHeadlines\StevesHeadlines\bin\System.Web.WebPages.xml
+E:\web 552\StevesHeadlines\StevesHeadlines\StevesHeadlines\bin\System.Web.WebPages.Deployment.xml
+E:\web 552\StevesHeadlines\StevesHeadlines\StevesHeadlines\bin\System.Web.WebPages.Razor.xml
+E:\web 552\StevesHeadlines\StevesHeadlines\StevesHeadlines\obj\Debug\StevesHeadlines.csprojResolveAssemblyReference.cache
+E:\web 552\StevesHeadlines\StevesHeadlines\StevesHeadlines\obj\Debug\StevesHeadlines.dll
+E:\web 552\StevesHeadlines\StevesHeadlines\StevesHeadlines\obj\Debug\StevesHeadlines.pdb
+E:\web 552\StevesHeadlines\StevesHeadlines\StevesHeadlines\bin\RouteDebugger.dll
+F:\Jody assignment 6\web 552\StevesHeadlines_finalized_Jody\StevesHeadlines\StevesHeadlines\bin\StevesHeadlines.dll.config
+F:\Jody assignment 6\web 552\StevesHeadlines_finalized_Jody\StevesHeadlines\StevesHeadlines\bin\StevesHeadlines.dll
+F:\Jody assignment 6\web 552\StevesHeadlines_finalized_Jody\StevesHeadlines\StevesHeadlines\bin\StevesHeadlines.pdb
+F:\Jody assignment 6\web 552\StevesHeadlines_finalized_Jody\StevesHeadlines\StevesHeadlines\bin\Antlr3.Runtime.dll
+F:\Jody assignment 6\web 552\StevesHeadlines_finalized_Jody\StevesHeadlines\StevesHeadlines\bin\EntityFramework.dll
+F:\Jody assignment 6\web 552\StevesHeadlines_finalized_Jody\StevesHeadlines\StevesHeadlines\bin\Microsoft.Web.Infrastructure.dll
+F:\Jody assignment 6\web 552\StevesHeadlines_finalized_Jody\StevesHeadlines\StevesHeadlines\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+F:\Jody assignment 6\web 552\StevesHeadlines_finalized_Jody\StevesHeadlines\StevesHeadlines\bin\Newtonsoft.Json.dll
+F:\Jody assignment 6\web 552\StevesHeadlines_finalized_Jody\StevesHeadlines\StevesHeadlines\bin\RouteDebugger.dll
+F:\Jody assignment 6\web 552\StevesHeadlines_finalized_Jody\StevesHeadlines\StevesHeadlines\bin\System.Net.Http.Formatting.dll
+F:\Jody assignment 6\web 552\StevesHeadlines_finalized_Jody\StevesHeadlines\StevesHeadlines\bin\System.Web.Http.dll
+F:\Jody assignment 6\web 552\StevesHeadlines_finalized_Jody\StevesHeadlines\StevesHeadlines\bin\System.Web.Http.WebHost.dll
+F:\Jody assignment 6\web 552\StevesHeadlines_finalized_Jody\StevesHeadlines\StevesHeadlines\bin\System.Web.Mvc.dll
+F:\Jody assignment 6\web 552\StevesHeadlines_finalized_Jody\StevesHeadlines\StevesHeadlines\bin\System.Web.Optimization.dll
+F:\Jody assignment 6\web 552\StevesHeadlines_finalized_Jody\StevesHeadlines\StevesHeadlines\bin\System.Web.Providers.dll
+F:\Jody assignment 6\web 552\StevesHeadlines_finalized_Jody\StevesHeadlines\StevesHeadlines\bin\System.Web.Razor.dll
+F:\Jody assignment 6\web 552\StevesHeadlines_finalized_Jody\StevesHeadlines\StevesHeadlines\bin\System.Web.WebPages.Deployment.dll
+F:\Jody assignment 6\web 552\StevesHeadlines_finalized_Jody\StevesHeadlines\StevesHeadlines\bin\System.Web.WebPages.dll
+F:\Jody assignment 6\web 552\StevesHeadlines_finalized_Jody\StevesHeadlines\StevesHeadlines\bin\System.Web.WebPages.Razor.dll
+F:\Jody assignment 6\web 552\StevesHeadlines_finalized_Jody\StevesHeadlines\StevesHeadlines\bin\WebGrease.dll
+F:\Jody assignment 6\web 552\StevesHeadlines_finalized_Jody\StevesHeadlines\StevesHeadlines\bin\EntityFramework.xml
+F:\Jody assignment 6\web 552\StevesHeadlines_finalized_Jody\StevesHeadlines\StevesHeadlines\bin\Newtonsoft.Json.xml
+F:\Jody assignment 6\web 552\StevesHeadlines_finalized_Jody\StevesHeadlines\StevesHeadlines\bin\System.Net.Http.Formatting.xml
+F:\Jody assignment 6\web 552\StevesHeadlines_finalized_Jody\StevesHeadlines\StevesHeadlines\bin\System.Web.Http.xml
+F:\Jody assignment 6\web 552\StevesHeadlines_finalized_Jody\StevesHeadlines\StevesHeadlines\bin\System.Web.Http.WebHost.xml
+F:\Jody assignment 6\web 552\StevesHeadlines_finalized_Jody\StevesHeadlines\StevesHeadlines\bin\System.Web.Mvc.xml
+F:\Jody assignment 6\web 552\StevesHeadlines_finalized_Jody\StevesHeadlines\StevesHeadlines\bin\System.Web.Razor.xml
+F:\Jody assignment 6\web 552\StevesHeadlines_finalized_Jody\StevesHeadlines\StevesHeadlines\bin\System.Web.WebPages.xml
+F:\Jody assignment 6\web 552\StevesHeadlines_finalized_Jody\StevesHeadlines\StevesHeadlines\bin\System.Web.WebPages.Deployment.xml
+F:\Jody assignment 6\web 552\StevesHeadlines_finalized_Jody\StevesHeadlines\StevesHeadlines\bin\System.Web.WebPages.Razor.xml
+F:\Jody assignment 6\web 552\StevesHeadlines_finalized_Jody\StevesHeadlines\StevesHeadlines\obj\Debug\StevesHeadlines.csprojResolveAssemblyReference.cache
+F:\Jody assignment 6\web 552\StevesHeadlines_finalized_Jody\StevesHeadlines\StevesHeadlines\obj\Debug\StevesHeadlines.dll
+F:\Jody assignment 6\web 552\StevesHeadlines_finalized_Jody\StevesHeadlines\StevesHeadlines\obj\Debug\StevesHeadlines.pdb
