@@ -1,0 +1,59 @@
+﻿@model PersonelByKathy.ViewModels.JobViewModel
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(m => m.FirstName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(m => m.LastName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(m => m.Email)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td data-bind="text:FirstName"></td>
+            <td data-bind="text:LastName"></td>
+            <td data-bind="text:Email"></td>
+        </tr>
+    </tbody>
+</table>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(m => m.Job.Title)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(m => m.Job.Description)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(m => m.Job.City)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(m => m.Job.IsFullTime)
+                </th>
+            </tr>
+        </thead>
+        <tbody data-bind="foreach:Jobs">
+                <tr>
+                    <td data-bind="text:Title"></td>
+                    <td data-bind="text:Description"></td>
+                    <td data-bind="text:City"></td>
+                    <td data-bind="text:IsFullTime"></td>
+                </tr>
+            </tbody>
+    </table>@section scripts{
+        @Scripts.Render("~/Scripts/ViewModels/IndexVM.js")
+    }
