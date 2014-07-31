@@ -1,0 +1,30 @@
+﻿body {
+}
+/*styles the details info in the details page*/
+#heading1 {
+    
+    color:rgb(178,178,178);
+    padding:10px 0;
+    font-weight:bolder;
+}
+
+aside{
+    display:table-cell;
+   vertical-align:top;
+}
+
+article{
+    display:table-cell;
+    width:65%;
+    padding:30px;
+}
+
+.list-group-item, .lead{
+    width:80%;
+   margin-left:20px;
+}
+
+#option{
+   line-height:30px;
+   padding-top:30px;
+}

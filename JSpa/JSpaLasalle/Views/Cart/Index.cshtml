@@ -1,0 +1,69 @@
+﻿@model JSpaLasalle.ViewModel.CartIndexVM
+@{
+    ViewBag.Title = "JSpa Online Store: Your Cart";
+}
+
+<div class="col-md-3">
+    <p class="lead">Categories</p>
+    <div class="list-group">
+        @Html.ActionLink("All", "List", "Product", null, new { @class = "list-group-item" })
+
+        @foreach (var cat in Model.Categories)
+        {
+            @Html.RouteLink(cat.Name, new
+               {
+                   controller = "Product",
+                   action = "List",
+                   category = cat.Name
+               }, new
+               {
+                   @class = "list-group-item"
+               })
+        }
+    </div>
+</div>
+
+<article>
+    <h2 id="heading1">Shopping Cart</h2>
+    <table class="table table-hover">
+        <tr>
+            <th class="text-center">Item #</th>
+            <th class="text-center">Name</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Subtotal</th>
+            <th></th>
+        </tr>
+        @{int num = 0;}
+        @foreach (var line in Model.Cart.Lines)
+        {
+            num++;
+            <tr>
+                <td class="text-left">@num.ToString()</td>
+                <td class="text-left">@Html.ActionLink(line.Product.Name, "Details", "Product", new { id = line.Product.ProductId }, null)</td>
+                <td class="text-left">@line.Product.Price.ToString("c")</td>
+                <td>@line.Quantity</td>
+                <td>@((line.Quantity * line.Product.Price).ToString("c"))</td>
+                <td>
+                    @using (Html.BeginForm("RemoveFromCart", "Cart"))
+                    {
+                        @Html.Hidden("ProductId", line.Product.ProductId)
+                        @Html.HiddenFor(x => x.ReturnUrl)
+                        <input class="btn btn-sm btn-warning" type="submit" value="Remove" />
+                    }
+                </td>
+            </tr>
+        }
+        <tr>
+            <td colspan="4" class="text-right">Total:</td>
+            <td class="text-center">
+                @Model.Cart.ComputeTotal().ToString("c")
+            </td>
+            <td></td>
+        </tr>
+    </table>
+    <p id="cs1"><a class="btn btn-default" href="@Model.ReturnUrl"> Continue Shopping </a></p>
+    <p id="submit">
+        @Html.ActionLink("Submit Order", "SubmitOrder", "Cart", null, new { @class = "btn btn-default"})
+    </p>
+</article>

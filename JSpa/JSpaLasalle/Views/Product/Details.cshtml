@@ -1,0 +1,77 @@
+﻿@model JSpaLasalle.ViewModel.ProductDetailVM
+
+@{
+    ViewBag.Title = " Product Details";
+}
+
+<div class="col-md-3">
+    <p class="lead">Categories</p>
+    <div class="list-group">
+        @Html.ActionLink("All", "List", "Product", null, new { @class = "list-group-item" })
+
+        @foreach (var cat in Model.Categories)
+        {
+            @Html.RouteLink(cat.Name, new
+               {
+                   controller = "Product",
+                   action = "List",
+                   category = cat.Name
+               }, new
+               {
+                   @class = "list-group-item"
+               }
+                    )
+        }
+
+
+        @*@Html.Action("Menu", "CatNav");*@
+    </div>
+</div>
+
+<article>
+    <img src=@Model.Product.PictureName width="297" height="398" alt="detail" />
+    <h2>Description</h2>
+    <p>
+        @Model.Product.Description
+    </p>
+
+</article>
+<aside>
+    <h2 id="heading1">Order Now</h2>
+    <h3>@Model.Product.Name</h3>
+    <h4>Category: @Model.Product.Category.Name</h4>
+    <p>Price: @Model.Product.Price.ToString("c")</p>
+    @if (@Model.Product.IsDiscontinued)
+    {
+        <h4> This product is <span style="color:#ff6a00;">DISCONTINUED</span>.</h4>
+    }
+    else
+    {
+        using (Html.BeginForm("AddToCart", "Cart", new
+        {
+            productId = @Model.Product.ProductId,
+            returnUrl = Request.Url.PathAndQuery
+        }))
+        {
+            <label class="" for="quantity">Quantity</label>
+            <select id="quantity" name="quantity" class="">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+            <p>
+                <input class="btn btn-default" type="submit" name="submit" value="Add to Cart" />
+            </p>
+        }
+    }
+</aside>  
+
+<p>
+    @Html.ActionLink("Back to List", "List")
+</p>

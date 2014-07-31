@@ -1,0 +1,43 @@
+﻿@model JSpaLasalle.ViewModel.CartSubmittedVM
+@{
+    ViewBag.Title = "Your order is submitted";
+}
+
+<div class="col-md-3">
+    <p class="lead">Categories</p>
+    <div class="list-group">
+        @Html.ActionLink("All", "List", "Product", null, new { @class = "list-group-item" })
+
+        @foreach (var cat in Model.Categories)
+        {
+            @Html.RouteLink(cat.Name, new
+               {
+                   controller = "Product",
+                   action = "List",
+                   category = cat.Name
+               }, new
+               {
+                   @class = "list-group-item"
+               })
+        }
+    </div>
+</div>
+
+
+<article>
+
+    <h3>Thank you, @Model.order.Username</h3>
+    <h4>Your order has been  successfully submitted.</h4>
+    <p>We will send you an email when your order is ready for pickup.</p>
+
+    <h4>Your order reference number:  @Model.order.OrderId</h4>
+    <p>Total: @Model.order.Total.ToString("c")</p>
+    <p>Order submitted on: @Model.order.OrderDate.ToString()</p>
+
+    <p id="cs2" style="margin-top:15%;">
+        @Html.ActionLink("Continue Shopping", "List", "Product", null, new { @class = "btn btn-default" })
+    </p>
+
+</article>
+
+

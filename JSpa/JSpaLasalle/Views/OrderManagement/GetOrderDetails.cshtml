@@ -1,0 +1,103 @@
+﻿@model Domain.Entities.Order
+
+@{
+    ViewBag.Title = "Order Details";
+}
+
+<div class="col-md-3">
+    <p class="lead">Order Management</p>
+    <div class="list-group">
+        @Html.ActionLink("All Orders", "Index", "OrderManagement", null, new { @class = "list-group-item" })
+        @Html.ActionLink("New Orders", "Index", "OrderManagement", new { @status = "Received" }, new { @class = "list-group-item" })
+        @Html.ActionLink("In Processing Orders", "Index", "OrderManagement", new { @status = "Processing" }, new { @class = "list-group-item" })
+        @Html.ActionLink("Ready Pickup Orders", "Index", "OrderManagement", new { @status = "Ready" }, new { @class = "list-group-item" })
+
+    </div>
+</div>
+
+
+<article>
+    <h2 id="heading1">Order Details</h2>
+    <p>Order#: @Model.OrderId</p>
+    <p>Total: @Model.Total.ToString("c")</p>
+    <p>Customer: @Model.Username</p>
+    <p>Place Date: @Model.OrderDate</p>
+    @switch (@Model.Status)
+    {
+        case "Received":
+            <p>Status: <span style="color:#e92a0e">@Model.Status</span></p>
+            break;
+        case "Processing":
+            <p>Status: <span style="color:#f79805">@Model.Status</span></p>
+            break;
+        case "Ready":
+            <p>Status: <span style="color:#488F33;">@Model.Status</span></p>
+            break;
+        default:
+            <p>Status: <span style="color:#000">@Model.Status</span></p>
+            break;
+    }
+
+
+    <p>Order List:</p>
+    <table style="width:70%" class="table table-hover">
+        <tr>
+            <th>Item #</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Quantity</th>
+        </tr>
+        @{int num = 0;}
+        @foreach (var item in Model.OrderDetails)
+        {
+            num = num + 1;
+            <tr>
+                <td class="text-left">@num.ToString()</td>
+                <td class="text-left">
+                    @Html.ActionLink(item.Product.Name, "Details", "ProductManagement", new { id = item.Product.ProductId }, null)
+                </td>
+                <td class="text-left">@item.Product.Price.ToString("c")</td>
+                <td class="text-left">@item.Quantity</td>
+            </tr>
+        }
+    </table>
+
+    <p id="cs1">
+        <a href="@ViewBag.ReturnList" class="btn btn-default">Back to the List</a>
+    </p>
+
+
+    <p id="submit">
+        @Html.ActionLink("Processing", "ChangeStatus", "OrderManagement", new { id = Model.OrderId, status = "Processing", returnList = ViewBag.ReturnList }, new { id = "p-btn", @class = "btn btn-default" })
+    </p>
+    <p id="submit">
+        @Html.ActionLink("Ready for pickup", "ChangeStatus", "OrderManagement", new { id = Model.OrderId, status = "Ready", returnList = ViewBag.ReturnList }, new { id = "r-btn", @class = "btn btn-default" })
+    </p>
+    <p id="submit">
+        @Html.ActionLink("Order is picked up", "ChangeStatus", "OrderManagement", new { id = Model.OrderId, status = "Completed", returnList = ViewBag.ReturnList }, new { id = "pu-btn", @class = "btn btn-default" })
+    </p>
+
+</article>
+
+<script src="~/Scripts/jquery-1.10.2.js"></script>""
+<script>
+    $(function(){
+        switch ("@Model.Status") {
+            case "Received":
+                $('#pu-btn').hide();
+                $('#p-btn, r-btn').show();
+                break;
+            case "Processing":
+                $('#p-btn').hide();
+                $('#r-btn, pu-btn').show();
+                break;
+            case "Ready":
+                $('#p-btn, #r-btn').hide();
+                $('#pu-btn').show;
+                break;
+            default:
+                $('#p-btn, #r-btn, #pu-btn').hide();
+        };
+    });
+
+</script>

@@ -1,0 +1,22 @@
+﻿@model Domain.Entities.Cart
+@{
+    ViewBag.Title = "Shopping Cart Summary";
+}
+
+<div class="navbar-right">
+
+    <div class="navbar-text">
+        <img src="/images/cart.png" width="35" height="24" alt="Shopping Cart" />
+        @Model.Lines.Sum(x => x.Quantity) item(s),
+        @Model.ComputeTotal().ToString("c")
+    </div>
+
+    <div class="">
+        @Html.ActionLink("Checkout", "Index", "Cart",
+        new { returnUrl = Request.Url.PathAndQuery },
+        new { @class = "btn btn-default navbar-btn", @style = "margin-left:10px;" })
+    </div>
+
+</div>
+
+

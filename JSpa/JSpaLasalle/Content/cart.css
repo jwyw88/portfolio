@@ -1,0 +1,30 @@
+﻿
+#heading1{
+    
+}
+
+#cs1 {float:left;
+      position:relative;
+    margin:20px;
+}
+
+#submit {
+    float:left;
+    position:relative;
+    margin:20px;
+}
+
+th, td
+{
+padding:15px 40px;
+
+}
+td{
+    text-align:center;
+}
+
+tr{
+    padding: 0 40px;
+   
+}
+

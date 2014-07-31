@@ -1,0 +1,58 @@
+﻿@model IEnumerable<Domain.Entities.Product>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<p class="lead">Product Management</p>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th id="th1">
+            @Html.DisplayNameFor(model => model.ProductId)
+        </th>
+        <th id="th1">
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th id="th1">
+            @Html.DisplayNameFor(model => model.Category)
+        </th>
+        <th id="th1">
+            @Html.DisplayNameFor(model => model.Price)
+        </th>
+        <th id="th1">
+            @Html.DisplayNameFor(model => model.IsDiscontinued)
+        </th>
+        <th id ="th1"></th>
+
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td id="td1">
+            @Html.DisplayFor(model => item.ProductId)
+        </td>
+        <td id="td1">
+            @Html.DisplayFor(model => item.Name)
+        </td>
+        <td id="td1">
+            @Html.DisplayFor(model => item.Category.Name)
+        </td>
+        <td id="td1">
+            @Html.DisplayFor(model => item.Price)
+        </td>
+        <td id="td1">
+            @Html.DisplayFor(model => item.IsDiscontinued)
+        </td>
+       
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.ProductId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.ProductId }) |
+           
+    </tr>
+}
+
+</table>
