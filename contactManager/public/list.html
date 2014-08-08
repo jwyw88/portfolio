@@ -1,0 +1,43 @@
+<ul class="list-inline">
+	<a href="#add/" class="btn btn-primary active" role="button">
+		Add a Contact
+	</a>
+	<li>You have {{contacts.length}} contacts.</li>
+	<li>
+		<div class="input-prepend">
+			<span class="add-on">
+				<i class="icon-search"></i>
+			</span>
+			<input class="span2" id="inputIcon" type="text" placeholder="Search..." ng-model="query">
+		</div>
+	</li>
+	<li>
+		<p>Sorted by: {{sort.column | capitalise}}</p>
+	</li>
+</ul>
+
+<table class="table table-hover">
+	<thead>
+		<tr>
+			<th ng-repeat="header in headers">
+				<a ng-click="changeSortOrder(header)">{{headers[$index] | capitalise }}</a>
+			</th>
+			<th></th>
+			<th></th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr ng-repeat="contact in contacts | orderBy:sort.column:sort.descending | filter: query">
+			<td>
+				<a href="#contacts/{{contact._id}}">{{contact.name}}</a>
+			</td>
+			<td>{{contact.phone}}</td>
+			<td>
+				<a href="#update/{{contact._id}}" class="btn btn-primary active btn-xs" role="button">Edit</a>
+			</td>
+			<td>
+				<a href="#delete/{{contact._id}}" class="btn btn-danger btn-xs" role="button">Delete</a>
+			</td>
+		</tr>
+	</tbody>
+</table>			
