@@ -1,0 +1,62 @@
+
+/*article style*/
+#content article#pageText {
+	width:95%;
+}
+#pageText h2{
+	font-size:1.75em;
+	font-weight:600;
+}
+#pageText ol, #pageText ul{
+	margin:0 0 .5em 5em;
+	line-height:1.5;
+	font-size:.85em;
+}
+#pageText a {
+	text-decoration:none;
+	color:#ff8519;
+	font-weight:600;
+}
+#pageText a:hover{
+	color:#888;
+}
+
+#pageText ul li {
+	list-style-type:none;
+}
+
+section#asideBox {
+	width:20%;
+	float:right;
+}
+#asideBox aside {
+	width:100%;
+	float:none;
+	margin-bottom:30px;
+	}
+#asideBox aside a {
+	display:block;
+	width:90%;
+	font-size:1.5em;
+	font-weight:700;
+	letter-spacing:1px;
+	text-align:center;
+	text-decoration:none;
+	box-shadow: 2px 2px 2px #ccc;
+	border-radius:10px;
+	background-color:rgb(250,200,65);
+	color:#444;
+	padding:5px;
+	margin:0 10px;
+}
+#asideBox aside a:hover {
+	color:#268f00;
+}
+#asideBox .hotelLogo a img {
+	width:100%;
+	box-shadow: 2px 2px 2px #ccc;
+}
+#asideBox .hotelLogo a{
+	background-color:transparent;
+	box-shadow: none;
+}

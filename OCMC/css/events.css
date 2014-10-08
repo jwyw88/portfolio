@@ -1,0 +1,54 @@
+/*#qLinks style */
+#content #qLinks{
+	width:25%;
+}
+/*article style*/
+#content article#pageText {
+	width:75%;
+}
+#pageText h2{
+	font-size:1.75em;
+	font-weight:600;
+}
+#pageText .download {
+	text-align:left;
+	line-height:1.5em;
+	list-style-type:none;
+	font-size:0.85em
+}
+
+#pageText a {
+	text-decoration:none;
+	color:#ff8519;
+	font-weight:600;
+	padding:2px 5px;
+}
+#pageText a:hover{
+	color:#888;
+}
+#pageText ol, #pageText ul{
+	margin:0 0 1em 5em;
+	line-height:1.5;
+	font-size:.85em;
+}
+#pageText em {
+	font-weight:600;
+}
+/*for job.html */
+#pageText ul#jobMail li {
+	list-style-type:none;
+}
+/*for quiz.html */
+section#asideBox {
+	width:20%;
+	float:right;
+}
+#asideBox aside {
+	width:100%;
+	float:none;
+	margin:0 auto;
+	margin-bottom:30px;
+	}
+#asideBox aside img {
+	border:none;
+}

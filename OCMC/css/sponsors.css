@@ -1,0 +1,33 @@
+
+
+/*article style*/
+#content article#pageText {
+	width:100%;
+}
+#pageText h2{
+	font-size:1.75em;
+	font-weight:600;
+}
+#pageText h3 {
+	color:#555;
+	font-size:1.5em;
+}
+table {
+	padding:10px;
+	margin:0 0 1em 8em;
+}
+table td{
+	width:30%;
+	padding:30px; 
+	}
+#platinum  td img,
+#bronze  td img{
+	width:30%;
+}
+#gold td img, #silver td img {
+	width:100%;
+}
+#silver tr:last-child td img {
+	width:30;
+}
+ 

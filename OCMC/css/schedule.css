@@ -1,0 +1,54 @@
+/*#qLinks style */
+#content #qLinks{
+	width:25%;
+}
+/*article style*/
+#content article#pageText {
+	width:75%;
+}
+#pageText h2{
+	font-size:1.75em;
+	font-weight:600;
+}
+#pageText table{
+	padding:0.5em 0;
+}
+#pageText table#day2 {
+	border-top:dashed 1px #777
+}
+#pageText table * {
+	padding: 5px;
+	}
+#pageText table col#time {
+	width:28%;
+}
+#pageText table col#event{
+	width:37%;
+}
+#pageText table col#location{
+	width:35%;
+}
+#pageText table thead th {
+	text-align:center;
+	font-size:1em;
+}
+#pageText table thead tr:first-child {
+	background-color:rgb(254,132,5);
+	color:#fff;
+	font-size:1.2em;
+}
+#pageText table thead tr:last-child {
+	background-color:rgba(254,132,5,0.6);
+	color:#555;
+}
+#pageText table tbody tr {
+	padding:10px 5px;
+}
+#pageText table td{
+	vertical-align:top;
+	font-size:.9em;
+	line-height:1.5em;
+	}
+#pageText table tbody tr:nth-child(2n){
+	background-color:rgba(254,132,5,0.3);
+}

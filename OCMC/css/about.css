@@ -1,0 +1,41 @@
+/*#qLinks style */
+#qLinks{
+	width:25%;
+}
+/*article style*/
+#pageText {
+	width:75%;
+}
+#pageText h2{
+	font-size:1.75em;
+	font-weight:600;
+}
+#pageText ul{
+	margin:0 0 .5em 5em;
+	line-height:1.5;
+	font-size:.85em;
+}
+#pageText a {
+	text-decoration:none;
+	color:#ff8519;
+	font-weight:600;
+}
+#pageText a:hover{
+	color:#00f;
+}
+
+#pageText li {color: #999;}
+	
+#pageText li span {color: #000;}
+
+#pageText h3 {
+	margin-left: 2.2em; 
+	color: #808080;
+}
+
+.form {
+	font-size: 0.95em;
+	margin: 0 0 1em 2.6em;;	
+}
+
+.deadline {color: #DAA520;}
